@@ -14,6 +14,12 @@
     "categories": {
       "auth": {
         "amplifybyron33e7dd8d": {}
+      },
+      "function": {
+        "amplifyByron": {
+          "deploymentBucketName": "amplify-amplifybyron-dev-174807-deployment",
+          "s3Key": "amplify-builds/amplifyByron-327243715264546f466b-build.zip"
+        }
       }
     }
   }

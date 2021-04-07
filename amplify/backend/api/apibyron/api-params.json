@@ -1,0 +1,42 @@
+{
+    "paths": [
+        {
+            "name": "/pizzas",
+            "lambdaFunction": "amplifyByron",
+            "privacy": {
+                "private": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ]
+            },
+            "policyResourceName": "/pizzas"
+        }
+    ],
+    "resourceName": "apibyron",
+    "apiName": "apibyron",
+    "functionArns": [
+        {
+            "lambdaFunction": "amplifyByron"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 0,
+        "authRoleName": "amplify-amplifybyron-dev-174807-authRole",
+        "unAuthRoleName": "amplify-amplifybyron-dev-174807-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "amplifyByron",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
