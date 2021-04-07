@@ -18,7 +18,7 @@
       "function": {
         "amplifyByron": {
           "deploymentBucketName": "amplify-amplifybyron-dev-174807-deployment",
-          "s3Key": "amplify-builds/amplifyByron-327243715264546f466b-build.zip"
+          "s3Key": "amplify-builds/amplifyByron-6c5930515648444c5536-build.zip"
         }
       }
     }
